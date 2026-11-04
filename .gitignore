@@ -1,0 +1,4 @@
+node_modules/
+*.xlsx
+!test/fixtures/*.xlsx
+.DS_Store

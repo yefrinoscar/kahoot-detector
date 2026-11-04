@@ -1,0 +1,16 @@
+{
+  "name": "kahoot-detector",
+  "version": "1.0.0",
+  "description": "Detecta reportes Excel de Kahoot y calcula los aciertos de cada jugador.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "bin": {"kahoot-detector": "bin/kahoot-detector.js"},
+  "files": ["src", "bin"],
+  "scripts": {"test": "node --test"},
+  "engines": {"node": ">=20"},
+  "dependencies": {
+    "fast-xml-parser": "^5.11.2",
+    "fflate": "^0.8.3"
+  }
+}
