@@ -97,3 +97,5 @@ npm test
 ```
 
 Las pruebas arman Excel mínimos en memoria (`test/helpers.js`), así que no hace falta guardar reportes reales en el repositorio.
+
+GitHub Actions las ejecuta en cada push a `main` y en cada PR, con Node 20, 22 y 24 (`.github/workflows/test.yml`).
